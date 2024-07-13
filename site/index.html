@@ -3,56 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coursera !</title>
+    <title>Two Column Design</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        div {
+            background-color: beige;
+        }
+        #p1 {
+            width: 50%;
+            border: 1px solid black;
+            padding: 5px;
+            margin-top: 20px;
+            float:left;
+            background-color: aliceblue;
+        }
+        #p2 {
+            width:50%;
+            border: 1px solid black;
+            padding:5px;
+            margin-top: 20px;
+            float:right;
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
-
-    <h1>HTML test</h1>
+    <h1>Two Column Design</h1>
     <div>
-        <h2>List test</h2>
-        <ul>
-            <li>Milk</li>
-            <li>Cookies
-                <ul>
-                   <li>Donuts</li>
-                   <li>Chocolate</li>
-                   <li>Sugar</li>
-                </ul>
-            </li>
-            <li>Hot pod</li>
-            <li>Ice cream</li>
-        </ul>
+        <p id="p1">As the planet warms, ice caps melt and oceans rise. Scientists feared these islands,
+             many barely peeking above the waves, would be the first to vanish beneath the tides.
+             et when researchers analyzed decades of aerial photos and satellite imagery, 
+             they discovered an amazing trend: Most islands have remained stable or even increased in area.
+        </p>
+
+        <p id="p2">
+            "I'm not sure we really knew what we would find," acknowledged Paul Kench, 
+            who co-led the groundbreaking study. The results astonished the scientific community.
+            This is a victory for island communities and the planet. Stable islands mean preserving the vibrant ecosystems and cultures that call them home.
+             It also means stemming a potential flood of climate refugees to overcrowded cities.
+        </p>
     </div>
-
-    <h2>Test 2 (special sign)</h2>
-    <div>
-        <ol>
-            <li>&lt;</li>
-            <li>&gt;</li>
-            <li>&amp;</li>
-            <li>&copy;</li>
-            <li>more...</li>
-        </ul>
-        <p>There are more special signs.</p>
-    </div>
-
-    <h2>Hyperlink test</h2>
-    <div>
-        <ul>
-            <!--target="_blank" 用於開新分頁-->
-            <!--//div 使整個區塊可點擊-->
-            <li><a href="https://www.google.com.tw" target="_blank" title="Google"><div>Gooooooooogle</div></a></li>
-            <li><a href="https://tw.yahoo.com" target="_blank" title="yahoo"><div>Yahoooooooooo</div></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" title="youtube"><div>Yooooooooutube</div></a></li>
-        </ul>
-    </div>
-
-    <h2>Image test(With Hyperlink)</h2>
-    <p>Click this picture to jump to magical page.</p>
-    <a href="https://www.google.com.tw" target="_blank">
-        <img src="./R.jpg" width="600" height="300" alt="Picture with universe">
-    </a>
-
 
 </body>
 </html>
